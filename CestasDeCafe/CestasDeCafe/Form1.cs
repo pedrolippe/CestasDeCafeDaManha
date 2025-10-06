@@ -9,7 +9,7 @@ namespace CestasDeCafe
 
         private void btnBronze_Click(object sender, EventArgs e)
         {
-            frmCestaBronze cestaBronze = new frmCestaBronze();
+            frmBronze cestaBronze = new frmBronze();
 
             this.Hide();
             cestaBronze.ShowDialog();

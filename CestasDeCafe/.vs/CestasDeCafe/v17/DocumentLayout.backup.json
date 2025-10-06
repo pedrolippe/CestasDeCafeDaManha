@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A48E743-A23F-4A3E-AF65-FBA19A8EA496}|CestasDeCafe\\CestasDeCafe.csproj|c:\\users\\phsli\\documents\\cestasdecafedamanha\\cestasdecafe\\cestasdecafe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A48E743-A23F-4A3E-AF65-FBA19A8EA496}|CestasDeCafe\\CestasDeCafe.csproj|solutionrelative:cestasdecafe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A48E743-A23F-4A3E-AF65-FBA19A8EA496}|CestasDeCafe\\CestasDeCafe.csproj|c:\\users\\phsli\\documents\\cestasdecafedamanha\\cestasdecafe\\cestasdecafe\\frmbronze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A48E743-A23F-4A3E-AF65-FBA19A8EA496}|CestasDeCafe\\CestasDeCafe.csproj|solutionrelative:cestasdecafe\\frmbronze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A48E743-A23F-4A3E-AF65-FBA19A8EA496}|CestasDeCafe\\CestasDeCafe.csproj|c:\\users\\phsli\\documents\\cestasdecafedamanha\\cestasdecafe\\cestasdecafe\\frmbronze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A48E743-A23F-4A3E-AF65-FBA19A8EA496}|CestasDeCafe\\CestasDeCafe.csproj|solutionrelative:cestasdecafe\\frmbronze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,22 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmBronze.cs",
+              "DocumentMoniker": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\frmBronze.cs",
+              "RelativeDocumentMoniker": "CestasDeCafe\\frmBronze.cs",
+              "ToolTip": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\frmBronze.cs*",
+              "RelativeToolTip": "CestasDeCafe\\frmBronze.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwDAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T02:16:09.277Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\Form1.cs",
-              "RelativeDocumentMoniker": "CestasDeCafe\\Form1.cs",
-              "ToolTip": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\Form1.cs [Projeto]",
-              "RelativeToolTip": "CestasDeCafe\\Form1.cs [Projeto]",
+              "DocumentIndex": 1,
+              "Title": "frmBronze.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\frmBronze.cs",
+              "RelativeDocumentMoniker": "CestasDeCafe\\frmBronze.cs",
+              "ToolTip": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\frmBronze.cs [Projeto]*",
+              "RelativeToolTip": "CestasDeCafe\\frmBronze.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T19:38:54.049Z",
+              "WhenOpened": "2025-10-06T01:58:09.257Z",
               "EditorCaption": " [Projeto]"
             }
           ]

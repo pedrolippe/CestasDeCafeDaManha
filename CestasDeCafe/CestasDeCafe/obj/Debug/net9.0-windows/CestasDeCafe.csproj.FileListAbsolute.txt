@@ -3,7 +3,6 @@ C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\bin\Debug
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\bin\Debug\net9.0-windows\CestasDeCafe.runtimeconfig.json
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\bin\Debug\net9.0-windows\CestasDeCafe.dll
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\bin\Debug\net9.0-windows\CestasDeCafe.pdb
-C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmCestaBronze.resources
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.csproj.GenerateResource.cache
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.AssemblyInfoInputs.cache
@@ -20,3 +19,4 @@ C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmOuro.resources
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmPersonalizado.resources
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmPrata.resources
+C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmBronze.resources
