@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\Form1.cs",
               "RelativeDocumentMoniker": "CestasDeCafe\\Form1.cs",
-              "ToolTip": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\Form1.cs [Design]",
-              "RelativeToolTip": "CestasDeCafe\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\phsli\\Documents\\CestasDeCafeDaManha\\CestasDeCafe\\CestasDeCafe\\Form1.cs [Projeto]",
+              "RelativeToolTip": "CestasDeCafe\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T00:29:14.773Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-05T19:38:54.049Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

@@ -1,6 +1,6 @@
 ﻿namespace CestasDeCafe
 {
-    partial class Form1
+    partial class frmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -57,6 +57,7 @@
             btnBronze.TabIndex = 1;
             btnBronze.Text = "Cesta Bronze";
             btnBronze.UseVisualStyleBackColor = false;
+            btnBronze.Click += btnBronze_Click;
             // 
             // btnPrata
             // 
@@ -68,6 +69,7 @@
             btnPrata.TabIndex = 2;
             btnPrata.Text = "Cesta Prata";
             btnPrata.UseVisualStyleBackColor = false;
+            btnPrata.Click += btnPrata_Click;
             // 
             // btnOuro
             // 
@@ -79,6 +81,7 @@
             btnOuro.TabIndex = 3;
             btnOuro.Text = "Cesta Ouro";
             btnOuro.UseVisualStyleBackColor = false;
+            btnOuro.Click += btnOuro_Click;
             // 
             // btnPersonalizar
             // 
@@ -90,6 +93,7 @@
             btnPersonalizar.TabIndex = 4;
             btnPersonalizar.Text = "Cesta Personalizada";
             btnPersonalizar.UseVisualStyleBackColor = false;
+            btnPersonalizar.Click += btnPersonalizar_Click;
             // 
             // label2
             // 
@@ -102,7 +106,7 @@
             label2.Text = "Pedro Henrique de Souza Lippe";
             label2.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // Form1
+            // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -114,8 +118,10 @@
             Controls.Add(btnPrata);
             Controls.Add(btnBronze);
             Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "frmPrincipal";
+            Text = "Cestas de Café da Manhã";
             ResumeLayout(false);
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CestasDeCafe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cc417ff36b980c7029ba825951bf04fe889af96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf7d41407da10bd2a9101cabbb35428325c05d65")]
 [assembly: System.Reflection.AssemblyProductAttribute("CestasDeCafe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CestasDeCafe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
