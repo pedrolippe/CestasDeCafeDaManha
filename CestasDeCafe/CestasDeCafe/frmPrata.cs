@@ -12,6 +12,7 @@ namespace CestasDeCafe
 {
     public partial class frmPrata : Form
     {
+        decimal valorCompra = 0.00m;
         public frmPrata()
         {
             InitializeComponent();
@@ -37,13 +38,13 @@ namespace CestasDeCafe
 
             decimal valorCesta = 115.00m;
             decimal quantidadeCestas = numQuantidade.Value;
-            decimal valorCompra = valorCesta * quantidadeCestas;
+            valorCompra = valorCesta * quantidadeCestas;
             lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnPagamento_Click(object sender, EventArgs e)
         {
-            frmPagamento pagamento = new frmPagamento();
+            frmPagamento pagamento = new frmPagamento(valorCompra);
 
             this.Hide();
             pagamento.ShowDialog();

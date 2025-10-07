@@ -13,9 +13,14 @@ namespace CestasDeCafe
 {
     public partial class frmPagamento : Form
     {
-        public frmPagamento()
+        private decimal valorCompra;
+
+        public frmPagamento(decimal valorCompra)
         {
             InitializeComponent();
+            this.valorCompra = valorCompra;
+
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void lblValor_Click(object sender, EventArgs e)

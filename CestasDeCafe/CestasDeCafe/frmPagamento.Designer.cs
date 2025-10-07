@@ -36,9 +36,9 @@
             button3 = new Button();
             button4 = new Button();
             label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
             label6 = new Label();
+            txtEmail = new TextBox();
+            txtCelular = new TextBox();
             SuspendLayout();
             // 
             // lblValor
@@ -124,24 +124,6 @@
             label3.TextAlign = ContentAlignment.MiddleCenter;
             label3.Click += label3_Click;
             // 
-            // label4
-            // 
-            label4.BackColor = SystemColors.Window;
-            label4.Font = new Font("Bodoni MT", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(12, 166);
-            label4.Name = "label4";
-            label4.Size = new Size(401, 55);
-            label4.TabIndex = 38;
-            // 
-            // label5
-            // 
-            label5.BackColor = SystemColors.Window;
-            label5.Font = new Font("Bodoni MT", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(12, 282);
-            label5.Name = "label5";
-            label5.Size = new Size(401, 55);
-            label5.TabIndex = 40;
-            // 
             // label6
             // 
             label6.Font = new Font("Bodoni MT", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -152,15 +134,31 @@
             label6.Text = "Informe seu Celular";
             label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // txtEmail
+            // 
+            txtEmail.Font = new Font("Bodoni MT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtEmail.Location = new Point(12, 169);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(401, 43);
+            txtEmail.TabIndex = 41;
+            // 
+            // txtCelular
+            // 
+            txtCelular.Font = new Font("Bodoni MT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtCelular.Location = new Point(12, 285);
+            txtCelular.Name = "txtCelular";
+            txtCelular.Size = new Size(401, 43);
+            txtCelular.TabIndex = 42;
+            // 
             // frmPagamento
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gainsboro;
             ClientSize = new Size(425, 536);
-            Controls.Add(label5);
+            Controls.Add(txtCelular);
+            Controls.Add(txtEmail);
             Controls.Add(label6);
-            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -169,9 +167,12 @@
             Controls.Add(label1);
             Controls.Add(lblValor);
             Controls.Add(label2);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmPagamento";
             Text = "frmPagamento";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -184,8 +185,8 @@
         private Button button3;
         private Button button4;
         private Label label3;
-        private Label label4;
-        private Label label5;
         private Label label6;
+        private TextBox txtEmail;
+        private TextBox txtCelular;
     }
 }

@@ -12,10 +12,27 @@ namespace CestasDeCafe
 {
     public partial class frmPersonalizado : Form
     {
-        decimal valorCesta = 0.00m;
+        decimal valorCompra = 0.00m;
         public frmPersonalizado()
         {
             InitializeComponent();
+        }
+        private decimal ObterPreco(string produto)
+        {
+            switch (produto)
+            {
+                case "Café Solúvel": return 4.00m;
+                case "Cappuccino": return 6.00m;
+                case "Chá": return 3.00m;
+                case "Torrada": return 8.00m;
+                case "Bolacha Champanhe": return 10.00m;
+                case "Cookies": return 9.00m;
+                case "Geleia": return 15.00m;
+                case "Nutella": return 13.00m;
+                case "Uvas": return 4.00m;
+                case "Buquê de Rosas": return 25.00m;
+                default: return 0m;
+            }
         }
 
         private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
@@ -44,11 +61,11 @@ namespace CestasDeCafe
 
             if (btnCafe_Click != null)
             {
-                valorCesta += cafeSoluvel;
+                valorCompra += cafeSoluvel;
                 lstProdutos.Items.Add("Café Solúvel");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void lstProdutos_SelectedIndexChanged(object sender, EventArgs e)
@@ -61,11 +78,11 @@ namespace CestasDeCafe
 
             if (btnCapuccinno_Click != null)
             {
-                valorCesta += capuccino;
+                valorCompra += capuccino;
                 lstProdutos.Items.Add("Cappuccino");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnCha_Click(object sender, EventArgs e)
@@ -74,11 +91,11 @@ namespace CestasDeCafe
 
             if (btnCha_Click != null)
             {
-                valorCesta += cha;
+                valorCompra += cha;
                 lstProdutos.Items.Add("Chá");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnTorrada_Click(object sender, EventArgs e)
@@ -87,11 +104,11 @@ namespace CestasDeCafe
 
             if (btnTorrada_Click != null)
             {
-                valorCesta += torrada;
+                valorCompra += torrada;
                 lstProdutos.Items.Add("Torrada");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnBolacha_Click(object sender, EventArgs e)
@@ -100,11 +117,11 @@ namespace CestasDeCafe
 
             if (btnBolacha_Click != null)
             {
-                valorCesta += bolachaChampanhe;
+                valorCompra += bolachaChampanhe;
                 lstProdutos.Items.Add("Bolacha Champanhe");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnCookies_Click(object sender, EventArgs e)
@@ -113,11 +130,11 @@ namespace CestasDeCafe
 
             if (btnCookies_Click != null)
             {
-                valorCesta += cookies;
+                valorCompra += cookies;
                 lstProdutos.Items.Add("Cookies");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnGeleia_Click(object sender, EventArgs e)
@@ -126,11 +143,11 @@ namespace CestasDeCafe
 
             if (btnGeleia_Click != null)
             {
-                valorCesta += geleia;
+                valorCompra += geleia;
                 lstProdutos.Items.Add("Geleia");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnNutella_Click(object sender, EventArgs e)
@@ -139,11 +156,11 @@ namespace CestasDeCafe
 
             if (btnNutella_Click != null)
             {
-                valorCesta += nutella;
+                valorCompra += nutella;
                 lstProdutos.Items.Add("Nutella");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnUvas_Click(object sender, EventArgs e)
@@ -152,11 +169,11 @@ namespace CestasDeCafe
 
             if (btnUvas_Click != null)
             {
-                valorCesta += uvas;
+                valorCompra += uvas;
                 lstProdutos.Items.Add("Uvas");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnRosas_Click(object sender, EventArgs e)
@@ -165,16 +182,16 @@ namespace CestasDeCafe
 
             if (btnRosas_Click != null)
             {
-                valorCesta += rosas;
+                valorCompra += rosas;
                 lstProdutos.Items.Add("Buquê de Rosas");
             }
 
-            lblValor.Text = valorCesta.ToString("C");
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void btnPagamento_Click(object sender, EventArgs e)
         {
-            frmPagamento pagamento = new frmPagamento();
+            frmPagamento pagamento = new frmPagamento(valorCompra);
 
             this.Hide();
             pagamento.ShowDialog();
@@ -185,7 +202,10 @@ namespace CestasDeCafe
         {
             if (lstProdutos.SelectedIndex != -1)
             {
+                string produtoSelecionado = lstProdutos.SelectedItem.ToString();
+                valorCompra -= ObterPreco(produtoSelecionado);
                 lstProdutos.Items.RemoveAt(lstProdutos.SelectedIndex);
+                lblValor.Text = valorCompra.ToString("C");
             }
             else
             {
