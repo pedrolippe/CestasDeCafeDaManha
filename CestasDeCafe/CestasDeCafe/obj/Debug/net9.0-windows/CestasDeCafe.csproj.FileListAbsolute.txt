@@ -20,3 +20,4 @@ C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmPersonalizado.resources
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmPrata.resources
 C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmBronze.resources
+C:\Users\phsli\Documents\CestasDeCafeDaManha\CestasDeCafe\CestasDeCafe\obj\Debug\net9.0-windows\CestasDeCafe.frmPagamento.resources

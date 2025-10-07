@@ -23,7 +23,11 @@ namespace CestasDeCafe
 
         private void button1_Click(object sender, EventArgs e)
         {
+            frmPagamento pagamento = new frmPagamento();
 
+            this.Hide();
+            pagamento.ShowDialog();
+            this.Show();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -46,7 +50,8 @@ namespace CestasDeCafe
 
             decimal valorCesta = 75.00m;
             decimal quantidadeCestas = numQuantidade.Value;
-            lblValor.Text = (valorCesta * quantidadeCestas).ToString("C");
+            decimal valorCompra = valorCesta * quantidadeCestas;
+            lblValor.Text = valorCompra.ToString("C");
         }
 
         private void lblValor_Click(object sender, EventArgs e)
